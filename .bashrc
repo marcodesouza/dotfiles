@@ -116,7 +116,6 @@ export PATH=$PATH:/home/marco/bin
 
 # Instalação Intel Fortran (18.04.2016)
 # pacote completo (8GB)
-# Serial number : 2jxl-kzrj9jz4
 source /home/marco/programas/intel/parallel_studio_xe_2016.2.062/bin/psxevars.sh
 
 # Para utilização do Debugger Intel (19.04.16) (debaixo da Arvore em Canasvieiras)
@@ -133,17 +132,7 @@ source /home/marco/programas/intel/parallel_studio_xe_2016.2.062/bin/psxevars.sh
 # http://munchpress.com/install-golang-1-5-on-ubuntu/
 export GOROOT=/home/marco/programas/go/
 export PATH=$GOROOT/bin:$PATH
-
 export GOPATH=/home/marco/src/gocode/
-
-echo ""
-echo "=========================="
-echo "=    reunião 9/3/16      ="
-echo "=     Meu trabalho       ="
-echo "=========================="
-echo "como enxergar a saida"
-echo "- Somatório de PAs na saída"
-echo "- traçar senoide dos pontos, senóides diferentes para estímulos diferentes (como mudar estímulos no programa?)"
 
 # habilitar powerline no shell
 #. /usr/share/powerline/bindings/bash/powerline.sh
